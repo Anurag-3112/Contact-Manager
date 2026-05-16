@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Contact Manager</h1>
+  <div class="one">
+    <div class="container">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="phone" placeholder="Phone" />
+        <input type="email" id="email" placeholder="Email" />
+        <button id="saveBtn" onclick="addContact()">
+          Save
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="toolbar">
+        <input type="text" id="search" placeholder="Search contacts..." oninput="loadContacts()" />
+        <select id="sort" onchange="loadContacts()">
+          <option value="desc">Newest</option>
+          <option value="asc">Oldest</option>
+        </select>
+      </div>
+      <div id="contactList"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
