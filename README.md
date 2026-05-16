@@ -71,13 +71,13 @@ Clean backend separation using:
 
 ## Main Dashboard
 
-<img src="./assets/image1.png" alt="Contact Manager Dashboard" width="90%" />
+<img src="./assets/image1.png" alt="Contact Manager Dashboard" width="100%" />
 
 <br/>
 
 ## With Contacts
 
-<img src="./assets/image2.png" alt="Dark Theme Contact Manager" width="90%" />
+<img src="./assets/image2.png" alt="Dark Theme Contact Manager" width="100%" />
 
 </div>
 
