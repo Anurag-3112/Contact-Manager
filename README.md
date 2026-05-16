@@ -116,9 +116,7 @@ server/
 │
 ├── Routes/
 │   └── contactRoutes.js
-│
-├── node_modules/
-│
+││
 ├── model.js
 ├── package.json
 ├── package-lock.json
@@ -146,7 +144,7 @@ server/
 ## 1️. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/contact-manager.git
+git clone https://github.com/Anurag-3112/Contact-Manager.git
 ```
 
 ## 2️. Navigate to Server
@@ -159,9 +157,19 @@ cd server
 
 ```bash
 npm install
+npm install dotenv
 ```
 
-# 4️. Start MongoDB
+# 4️. Create .env File
+
+Create a `.env` file inside the `server` folder:
+
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/contactDB
+PORT=5000
+```
+
+# 5. Start MongoDB
 
 Ensure MongoDB is running locally:
 
@@ -171,11 +179,21 @@ mongodb://127.0.0.1:27017/contactDB
 
 ---
 
-# 5️. Run Server
+# 6. Run Server
 
 ```bash
 node server.js
 ```
+
+# 7. Open Frontend
+
+Open:
+
+```bash
+client/index.html
+```
+
+OR use Live Server extension.
 
 ---
 
