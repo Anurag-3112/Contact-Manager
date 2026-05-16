@@ -90,7 +90,7 @@ CONTACT MANAGER
 │
 ├── assets
 ├── client
-├── server
+└── server
 ```
 
 ### Frontend
